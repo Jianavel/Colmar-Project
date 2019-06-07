@@ -5,9 +5,8 @@
 html {
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
+  background-color: hsl(0, 0%, 95%);
 }
-
-
 
 h1, h2, h3, h4, p, a, span {
   opacity: .7;
@@ -25,10 +24,13 @@ h3 {
 
 /* header */
 .menu {
-  margin: .5rem 1.5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: 4rem;
+  background-color: white;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .logo img {
@@ -40,6 +42,7 @@ h3 {
   height: 2rem;
   display: flex;
   align-items: center;
+
 }
 
 .bold {
@@ -51,7 +54,48 @@ h3 {
   padding-left: 1rem;
 }
 
-/* body */
+/* Body Container */
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 1.5rem;
+}
+
+.banner img {
+  width: 60%;
+  padding-right: 1.5rem;
+}
+
+.learn-something {
+  padding: 1.5rem;
+  width: 60%;
+}
+
+.learn-something .learn {
+  margin: 1.5rem;
+}
+
+.learn-something a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 30%);
+  padding: .7rem;
+  color: white;
+}
+
+/* Main Content */
+
+.main-content {
+  display: block;
+}
+
+.keep-practicing img {
+  width: 60%;
+  padding: 2rem 1.5rem;
+}
 
 
 
