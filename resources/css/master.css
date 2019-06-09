@@ -60,7 +60,8 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 2rem 1.5rem;
+  padding: 2rem 1.5rem;
+  background-color: lightgrey;
 }
 
 .banner img {
@@ -88,14 +89,82 @@ h3 {
 
 /* Main Content */
 
-.main-content {
-  display: block;
+/* Middle1 */
+
+.middle1 {
+  display: flex;
+  justify-content:flex-start;
+  align-items:flex-start;
+}
+
+.keep-practicing {
+  padding: 2rem 1.5rem;
+  width: 60%;
+  border-right: solid #d9d9d9 1px;
 }
 
 .keep-practicing img {
-  width: 60%;
-  padding: 2rem 1.5rem;
+  width:100%;
 }
+
+.keep-practicing h1 {
+  padding-top: 2rem;
+}
+
+.keep-practicing h4 {
+  padding-top: 1.5rem;
+}
+
+.keep-practicing p {
+  margin: 2rem 0rem;
+}
+.campus-info {
+  width: 40%;
+  margin-top: 2rem ;
+}
+
+.side {
+  padding:1rem;
+  border-bottom: solid #d9d9d9 3px ;
+  display: flex;
+
+}
+
+.side img {
+  height: 35%;
+  width: 35%;
+
+}
+
+.orientation {
+  padding-top: 0rem;
+}
+
+.side-text {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-left:1.5rem;
+}
+
+.side-text h3,
+.side-text h4,
+.side-text a {
+  padding: 0.5rem;
+  line-height: 1.7;
+}
+
+.side-text h3 {
+  font-weight: bold;
+}
+
+.side-text a {
+  color: #0059b3;
+}
+
+
+
 
 
 
