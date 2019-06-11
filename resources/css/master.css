@@ -163,6 +163,44 @@ h3 {
   color: #0059b3;
 }
 
+/* Start Learning */
+
+.middle-section {
+  text-align: center;
+  padding: 2rem 4.5rem;
+  background-color: hsl(0, 0%, 90%);
+}
+
+.middle-section h1{
+  padding-bottom: 2rem;
+  font-weight: bold;
+}
+
+.images {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.image {
+  background-color: white;
+  width: 30%;
+  height: auto;
+  margin: 1rem;
+}
+
+.image img {
+  width: 100%;
+}
+
+.image-text {
+  text-align: left;
+  line-height: 1.7;
+  padding: 1rem 1rem 1.5rem 1rem;
+}
+
+
+
 
 
 
