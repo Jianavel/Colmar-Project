@@ -218,6 +218,59 @@ h3 {
   color: #0059b3;
 }
 
+@media only screen and (max-width: 760px) {
+
+  .keep-practicing {
+    display: none;
+  }
+}
+
+/* Mobile-campus queries*/
+
+@media only screen and (min-width: 760px) {
+  .mobile-campus {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .desktop-campus {
+    display: none;
+  }
+
+  .campus-info {
+    margin: 0;
+  }
+
+  .middle1 {
+    display: block;
+  }
+
+  .mobile-campus {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .side-mobile {
+    display: flex;
+    flex-direction: column;
+    width: fill;
+    padding: 2rem 1rem;
+  }
+
+  .side-mobile img {
+    width: 100%;
+    height: auto;
+  }
+
+  .side-text-mobile {
+    padding-left: 1rem;
+    line-height: 1.7;
+  }
+}
+
+
 /* Start Learning */
 
 .middle-section {
@@ -252,6 +305,37 @@ h3 {
   line-height: 1.7;
   padding: 1rem 1rem 1.5rem 1rem;
 }
+
+
+/* Start learning mobile queries */
+
+@media only screen and (max-width: 760px) {
+  .middle-section {
+    display: none;
+  }
+
+  .middle-section-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .learn-mobile-h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  .learn-mobile {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 1rem 1.5rem 1rem;
+    margin-bottom: 0.5rem;
+    background-color: hsl(0, 0%, 85%);
+  }
+}
+
 
 /* Bottom Section */
 
@@ -307,6 +391,13 @@ h3 {
   justify-content: center;
   line-height: 1.4;
   width: 65%;
+}
+
+
+/* Bottom queries */
+
+@media only screen and (max-width: 760px) {
+
 }
 
 /* footer */
