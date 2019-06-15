@@ -309,6 +309,12 @@ h3 {
 
 /* Start learning mobile queries */
 
+@media only screen and (min-width: 760px) {
+  .middle-section-mobile {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 760px) {
   .middle-section {
     display: none;
@@ -396,8 +402,29 @@ h3 {
 
 /* Bottom queries */
 
+
+
 @media only screen and (max-width: 760px) {
 
+  .video-text {
+    display: none;
+  }
+
+  .side-section {
+    display: none;
+  }
+
+  .bottom-section h1 {
+    padding-bottom: 1rem;
+  }
+
+  .video {
+    display: block;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    padding-bottom: 0;
+  }
 }
 
 /* footer */
