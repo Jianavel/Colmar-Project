@@ -22,7 +22,6 @@ h3 {
   font-weight: bold;
 }
 
-
 /* header */
 .menu {
   display: flex;
@@ -158,7 +157,7 @@ h3 {
 .keep-practicing {
   padding: 2rem 1.5rem;
   width: 60%;
-  border-right: solid #d9d9d9 1px;
+
 }
 
 .keep-practicing img {
@@ -180,6 +179,10 @@ h3 {
 .campus-info {
   width: 40%;
   margin-top: 2rem ;
+}
+
+.desktop-campus {
+  border-left: solid #d9d9d9 1px;
 }
 
 .side {
@@ -268,8 +271,11 @@ h3 {
     padding-left: 1rem;
     line-height: 1.7;
   }
-}
 
+  .side-text-mobile a {
+    color: #0059b3;
+  }
+}
 
 /* Start Learning */
 
@@ -401,9 +407,6 @@ h3 {
 
 
 /* Bottom queries */
-
-
-
 @media only screen and (max-width: 760px) {
 
   .video-text {
@@ -427,8 +430,8 @@ h3 {
   }
 }
 
-/* footer */
 
+/* footer */
 footer {
   padding: 1rem 1.5rem 2rem 1.5rem;
   display: flex;
@@ -439,8 +442,8 @@ footer {
   margin: .5rem;
 }
 
-/* footer queries */
 
+/* footer queries */
 @media only screen and (max-width: 760px) {
   .terms {
     display: none;
@@ -451,4 +454,10 @@ footer {
     display: flex;
     justify-content: center;
   }
+}
+
+
+/* pseudo-classes */
+a:hover {
+  color:hsl(240, 100%, 20%);
 }
